@@ -1,5 +1,5 @@
 # image_match
-SIFT implementation + pose estimation in MATLAB. It uses the classic DoG blob detector for feature point detection and the SIFT descriptor for feature point correspondence. Pose estimation uses RANSAC to compute the best homography using matched feature points in the reference and current image.
+SIFT implementation + pose estimation in MATLAB. It uses the classic DoG blob detector for feature point detection and the SIFT descriptor for feature point correspondence. Pose estimation uses RANSAC to compute the best homography using matched feature points in the reference and current image. Note that this was a side project I did for fun and is far from a fast/robust implementation.
 
 Below is a step by step explanation of test.m:
 
